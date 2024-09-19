@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB47CCD32C9BDACB005CBAC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB47CCD22C9BDACB005CBAC9 /* AppDelegate.m */; };
+		AB47CCD62C9BDACB005CBAC9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB47CCD52C9BDACB005CBAC9 /* SceneDelegate.m */; };
+		AB47CCD92C9BDACB005CBAC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB47CCD82C9BDACB005CBAC9 /* ViewController.m */; };
+		AB47CCDC2C9BDACB005CBAC9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AB47CCDB2C9BDACB005CBAC9 /* Base */; };
+		AB47CCDE2C9BDACC005CBAC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB47CCDD2C9BDACC005CBAC9 /* Assets.xcassets */; };
+		AB47CCE12C9BDACC005CBAC9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AB47CCE02C9BDACC005CBAC9 /* Base */; };
+		AB47CCE42C9BDACC005CBAC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB47CCE32C9BDACC005CBAC9 /* main.m */; };
+		AB47CCEE2C9BDACD005CBAC9 /* NFCSampleObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB47CCED2C9BDACD005CBAC9 /* NFCSampleObjectiveCTests.m */; };
+		AB47CCF82C9BDACD005CBAC9 /* NFCSampleObjectiveCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB47CCF72C9BDACD005CBAC9 /* NFCSampleObjectiveCUITests.m */; };
+		AB47CCFA2C9BDACD005CBAC9 /* NFCSampleObjectiveCUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB47CCF92C9BDACD005CBAC9 /* NFCSampleObjectiveCUITestsLaunchTests.m */; };
+		AB47CD0F2C9BDB94005CBAC9 /* ResultEkycViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB47CD0E2C9BDB94005CBAC9 /* ResultEkycViewController.swift */; };
+		AB47CD162C9BDBB9005CBAC9 /* ResultEkycCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB47CD102C9BDBB9005CBAC9 /* ResultEkycCell.swift */; };
+		AB47CD172C9BDBB9005CBAC9 /* ResultEkycCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB47CD112C9BDBB9005CBAC9 /* ResultEkycCell.xib */; };
+		AB47CD182C9BDBB9005CBAC9 /* ResultEkycHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB47CD132C9BDBB9005CBAC9 /* ResultEkycHeader.swift */; };
+		AB47CD192C9BDBB9005CBAC9 /* ResultEkycHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB47CD142C9BDBB9005CBAC9 /* ResultEkycHeader.xib */; };
+		AB47CD1A2C9BE028005CBAC9 /* ICNFCCardReader.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB47CD072C9BDB46005CBAC9 /* ICNFCCardReader.xcframework */; };
+		AB47CD1B2C9BE028005CBAC9 /* ICNFCCardReader.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB47CD072C9BDB46005CBAC9 /* ICNFCCardReader.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AB47CD1D2C9BE02A005CBAC9 /* OpenSSL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB47CD082C9BDB46005CBAC9 /* OpenSSL.xcframework */; };
+		AB47CD1E2C9BE02A005CBAC9 /* OpenSSL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB47CD082C9BDB46005CBAC9 /* OpenSSL.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB47CCEA2C9BDACD005CBAC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB47CCC62C9BDACB005CBAC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB47CCCD2C9BDACB005CBAC9;
+			remoteInfo = NFCSampleObjectiveC;
+		};
+		AB47CCF42C9BDACD005CBAC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB47CCC62C9BDACB005CBAC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB47CCCD2C9BDACB005CBAC9;
+			remoteInfo = NFCSampleObjectiveC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB47CD1C2C9BE028005CBAC9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AB47CD1E2C9BE02A005CBAC9 /* OpenSSL.xcframework in Embed Frameworks */,
+				AB47CD1B2C9BE028005CBAC9 /* ICNFCCardReader.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB47CCCE2C9BDACB005CBAC9 /* NFCSampleObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFCSampleObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB47CCD12C9BDACB005CBAC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB47CCD22C9BDACB005CBAC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB47CCD42C9BDACB005CBAC9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		AB47CCD52C9BDACB005CBAC9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		AB47CCD72C9BDACB005CBAC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB47CCD82C9BDACB005CBAC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB47CCDB2C9BDACB005CBAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB47CCDD2C9BDACC005CBAC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB47CCE02C9BDACC005CBAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB47CCE22C9BDACC005CBAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB47CCE32C9BDACC005CBAC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB47CCE92C9BDACD005CBAC9 /* NFCSampleObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFCSampleObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB47CCED2C9BDACD005CBAC9 /* NFCSampleObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFCSampleObjectiveCTests.m; sourceTree = "<group>"; };
+		AB47CCF32C9BDACD005CBAC9 /* NFCSampleObjectiveCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFCSampleObjectiveCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB47CCF72C9BDACD005CBAC9 /* NFCSampleObjectiveCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFCSampleObjectiveCUITests.m; sourceTree = "<group>"; };
+		AB47CCF92C9BDACD005CBAC9 /* NFCSampleObjectiveCUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFCSampleObjectiveCUITestsLaunchTests.m; sourceTree = "<group>"; };
+		AB47CD062C9BDAF3005CBAC9 /* NFCSampleObjectiveC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NFCSampleObjectiveC.entitlements; sourceTree = "<group>"; };
+		AB47CD072C9BDB46005CBAC9 /* ICNFCCardReader.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ICNFCCardReader.xcframework; sourceTree = "<group>"; };
+		AB47CD082C9BDB46005CBAC9 /* OpenSSL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = OpenSSL.xcframework; sourceTree = "<group>"; };
+		AB47CD0D2C9BDB93005CBAC9 /* NFCSampleObjectiveC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NFCSampleObjectiveC-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB47CD0E2C9BDB94005CBAC9 /* ResultEkycViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultEkycViewController.swift; sourceTree = "<group>"; };
+		AB47CD102C9BDBB9005CBAC9 /* ResultEkycCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultEkycCell.swift; sourceTree = "<group>"; };
+		AB47CD112C9BDBB9005CBAC9 /* ResultEkycCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultEkycCell.xib; sourceTree = "<group>"; };
+		AB47CD132C9BDBB9005CBAC9 /* ResultEkycHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultEkycHeader.swift; sourceTree = "<group>"; };
+		AB47CD142C9BDBB9005CBAC9 /* ResultEkycHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultEkycHeader.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB47CCCB2C9BDACB005CBAC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB47CD1D2C9BE02A005CBAC9 /* OpenSSL.xcframework in Frameworks */,
+				AB47CD1A2C9BE028005CBAC9 /* ICNFCCardReader.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB47CCE62C9BDACD005CBAC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB47CCF02C9BDACD005CBAC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB47CCC52C9BDACB005CBAC9 = {
+			isa = PBXGroup;
+			children = (
+				AB47CCD02C9BDACB005CBAC9 /* NFCSampleObjectiveC */,
+				AB47CCEC2C9BDACD005CBAC9 /* NFCSampleObjectiveCTests */,
+				AB47CCF62C9BDACD005CBAC9 /* NFCSampleObjectiveCUITests */,
+				AB47CCCF2C9BDACB005CBAC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB47CCCF2C9BDACB005CBAC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB47CCCE2C9BDACB005CBAC9 /* NFCSampleObjectiveC.app */,
+				AB47CCE92C9BDACD005CBAC9 /* NFCSampleObjectiveCTests.xctest */,
+				AB47CCF32C9BDACD005CBAC9 /* NFCSampleObjectiveCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB47CCD02C9BDACB005CBAC9 /* NFCSampleObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				AB47CD092C9BDB46005CBAC9 /* Sdks */,
+				AB47CD062C9BDAF3005CBAC9 /* NFCSampleObjectiveC.entitlements */,
+				AB47CCD12C9BDACB005CBAC9 /* AppDelegate.h */,
+				AB47CCD22C9BDACB005CBAC9 /* AppDelegate.m */,
+				AB47CCD42C9BDACB005CBAC9 /* SceneDelegate.h */,
+				AB47CCD52C9BDACB005CBAC9 /* SceneDelegate.m */,
+				AB47CCD72C9BDACB005CBAC9 /* ViewController.h */,
+				AB47CCD82C9BDACB005CBAC9 /* ViewController.m */,
+				AB47CD0A2C9BDB46005CBAC9 /* Result */,
+				AB47CCDA2C9BDACB005CBAC9 /* Main.storyboard */,
+				AB47CCDD2C9BDACC005CBAC9 /* Assets.xcassets */,
+				AB47CCDF2C9BDACC005CBAC9 /* LaunchScreen.storyboard */,
+				AB47CCE22C9BDACC005CBAC9 /* Info.plist */,
+				AB47CCE32C9BDACC005CBAC9 /* main.m */,
+				AB47CD0D2C9BDB93005CBAC9 /* NFCSampleObjectiveC-Bridging-Header.h */,
+			);
+			path = NFCSampleObjectiveC;
+			sourceTree = "<group>";
+		};
+		AB47CCEC2C9BDACD005CBAC9 /* NFCSampleObjectiveCTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB47CCED2C9BDACD005CBAC9 /* NFCSampleObjectiveCTests.m */,
+			);
+			path = NFCSampleObjectiveCTests;
+			sourceTree = "<group>";
+		};
+		AB47CCF62C9BDACD005CBAC9 /* NFCSampleObjectiveCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB47CCF72C9BDACD005CBAC9 /* NFCSampleObjectiveCUITests.m */,
+				AB47CCF92C9BDACD005CBAC9 /* NFCSampleObjectiveCUITestsLaunchTests.m */,
+			);
+			path = NFCSampleObjectiveCUITests;
+			sourceTree = "<group>";
+		};
+		AB47CD092C9BDB46005CBAC9 /* Sdks */ = {
+			isa = PBXGroup;
+			children = (
+				AB47CD072C9BDB46005CBAC9 /* ICNFCCardReader.xcframework */,
+				AB47CD082C9BDB46005CBAC9 /* OpenSSL.xcframework */,
+			);
+			path = Sdks;
+			sourceTree = "<group>";
+		};
+		AB47CD0A2C9BDB46005CBAC9 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				AB47CD122C9BDBB9005CBAC9 /* ResultEkycCell */,
+				AB47CD152C9BDBB9005CBAC9 /* ResultEkycHeader */,
+				AB47CD0E2C9BDB94005CBAC9 /* ResultEkycViewController.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		AB47CD122C9BDBB9005CBAC9 /* ResultEkycCell */ = {
+			isa = PBXGroup;
+			children = (
+				AB47CD102C9BDBB9005CBAC9 /* ResultEkycCell.swift */,
+				AB47CD112C9BDBB9005CBAC9 /* ResultEkycCell.xib */,
+			);
+			path = ResultEkycCell;
+			sourceTree = "<group>";
+		};
+		AB47CD152C9BDBB9005CBAC9 /* ResultEkycHeader */ = {
+			isa = PBXGroup;
+			children = (
+				AB47CD132C9BDBB9005CBAC9 /* ResultEkycHeader.swift */,
+				AB47CD142C9BDBB9005CBAC9 /* ResultEkycHeader.xib */,
+			);
+			path = ResultEkycHeader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB47CCCD2C9BDACB005CBAC9 /* NFCSampleObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB47CCFD2C9BDACD005CBAC9 /* Build configuration list for PBXNativeTarget "NFCSampleObjectiveC" */;
+			buildPhases = (
+				AB47CCCA2C9BDACB005CBAC9 /* Sources */,
+				AB47CCCB2C9BDACB005CBAC9 /* Frameworks */,
+				AB47CCCC2C9BDACB005CBAC9 /* Resources */,
+				AB47CD1C2C9BE028005CBAC9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFCSampleObjectiveC;
+			productName = NFCSampleObjectiveC;
+			productReference = AB47CCCE2C9BDACB005CBAC9 /* NFCSampleObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB47CCE82C9BDACD005CBAC9 /* NFCSampleObjectiveCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB47CD002C9BDACD005CBAC9 /* Build configuration list for PBXNativeTarget "NFCSampleObjectiveCTests" */;
+			buildPhases = (
+				AB47CCE52C9BDACD005CBAC9 /* Sources */,
+				AB47CCE62C9BDACD005CBAC9 /* Frameworks */,
+				AB47CCE72C9BDACD005CBAC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB47CCEB2C9BDACD005CBAC9 /* PBXTargetDependency */,
+			);
+			name = NFCSampleObjectiveCTests;
+			productName = NFCSampleObjectiveCTests;
+			productReference = AB47CCE92C9BDACD005CBAC9 /* NFCSampleObjectiveCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB47CCF22C9BDACD005CBAC9 /* NFCSampleObjectiveCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB47CD032C9BDACD005CBAC9 /* Build configuration list for PBXNativeTarget "NFCSampleObjectiveCUITests" */;
+			buildPhases = (
+				AB47CCEF2C9BDACD005CBAC9 /* Sources */,
+				AB47CCF02C9BDACD005CBAC9 /* Frameworks */,
+				AB47CCF12C9BDACD005CBAC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB47CCF52C9BDACD005CBAC9 /* PBXTargetDependency */,
+			);
+			name = NFCSampleObjectiveCUITests;
+			productName = NFCSampleObjectiveCUITests;
+			productReference = AB47CCF32C9BDACD005CBAC9 /* NFCSampleObjectiveCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB47CCC62C9BDACB005CBAC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AB47CCCD2C9BDACB005CBAC9 = {
+						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
+					};
+					AB47CCE82C9BDACD005CBAC9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AB47CCCD2C9BDACB005CBAC9;
+					};
+					AB47CCF22C9BDACD005CBAC9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AB47CCCD2C9BDACB005CBAC9;
+					};
+				};
+			};
+			buildConfigurationList = AB47CCC92C9BDACB005CBAC9 /* Build configuration list for PBXProject "NFCSampleObjectiveC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB47CCC52C9BDACB005CBAC9;
+			productRefGroup = AB47CCCF2C9BDACB005CBAC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB47CCCD2C9BDACB005CBAC9 /* NFCSampleObjectiveC */,
+				AB47CCE82C9BDACD005CBAC9 /* NFCSampleObjectiveCTests */,
+				AB47CCF22C9BDACD005CBAC9 /* NFCSampleObjectiveCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB47CCCC2C9BDACB005CBAC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB47CCDE2C9BDACC005CBAC9 /* Assets.xcassets in Resources */,
+				AB47CCE12C9BDACC005CBAC9 /* Base in Resources */,
+				AB47CD172C9BDBB9005CBAC9 /* ResultEkycCell.xib in Resources */,
+				AB47CCDC2C9BDACB005CBAC9 /* Base in Resources */,
+				AB47CD192C9BDBB9005CBAC9 /* ResultEkycHeader.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB47CCE72C9BDACD005CBAC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB47CCF12C9BDACD005CBAC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB47CCCA2C9BDACB005CBAC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB47CD182C9BDBB9005CBAC9 /* ResultEkycHeader.swift in Sources */,
+				AB47CCD92C9BDACB005CBAC9 /* ViewController.m in Sources */,
+				AB47CD0F2C9BDB94005CBAC9 /* ResultEkycViewController.swift in Sources */,
+				AB47CCD32C9BDACB005CBAC9 /* AppDelegate.m in Sources */,
+				AB47CCE42C9BDACC005CBAC9 /* main.m in Sources */,
+				AB47CD162C9BDBB9005CBAC9 /* ResultEkycCell.swift in Sources */,
+				AB47CCD62C9BDACB005CBAC9 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB47CCE52C9BDACD005CBAC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB47CCEE2C9BDACD005CBAC9 /* NFCSampleObjectiveCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB47CCEF2C9BDACD005CBAC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB47CCFA2C9BDACD005CBAC9 /* NFCSampleObjectiveCUITestsLaunchTests.m in Sources */,
+				AB47CCF82C9BDACD005CBAC9 /* NFCSampleObjectiveCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB47CCEB2C9BDACD005CBAC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB47CCCD2C9BDACB005CBAC9 /* NFCSampleObjectiveC */;
+			targetProxy = AB47CCEA2C9BDACD005CBAC9 /* PBXContainerItemProxy */;
+		};
+		AB47CCF52C9BDACD005CBAC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB47CCCD2C9BDACB005CBAC9 /* NFCSampleObjectiveC */;
+			targetProxy = AB47CCF42C9BDACD005CBAC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB47CCDA2C9BDACB005CBAC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB47CCDB2C9BDACB005CBAC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB47CCDF2C9BDACC005CBAC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB47CCE02C9BDACC005CBAC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB47CCFB2C9BDACD005CBAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB47CCFC2C9BDACD005CBAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB47CCFE2C9BDACD005CBAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = NFCSampleObjectiveC/NFCSampleObjectiveC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9AK576J4RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NFCSampleObjectiveC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnptic.NFCSampleObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NFCSampleObjectiveC/NFCSampleObjectiveC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB47CCFF2C9BDACD005CBAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = NFCSampleObjectiveC/NFCSampleObjectiveC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9AK576J4RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NFCSampleObjectiveC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnptic.NFCSampleObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NFCSampleObjectiveC/NFCSampleObjectiveC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB47CD012C9BDACD005CBAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9AK576J4RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnptic.NFCSampleObjectiveCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFCSampleObjectiveC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NFCSampleObjectiveC";
+			};
+			name = Debug;
+		};
+		AB47CD022C9BDACD005CBAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9AK576J4RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnptic.NFCSampleObjectiveCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFCSampleObjectiveC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NFCSampleObjectiveC";
+			};
+			name = Release;
+		};
+		AB47CD042C9BDACD005CBAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9AK576J4RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnptic.NFCSampleObjectiveCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NFCSampleObjectiveC;
+			};
+			name = Debug;
+		};
+		AB47CD052C9BDACD005CBAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9AK576J4RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnptic.NFCSampleObjectiveCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NFCSampleObjectiveC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB47CCC92C9BDACB005CBAC9 /* Build configuration list for PBXProject "NFCSampleObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB47CCFB2C9BDACD005CBAC9 /* Debug */,
+				AB47CCFC2C9BDACD005CBAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB47CCFD2C9BDACD005CBAC9 /* Build configuration list for PBXNativeTarget "NFCSampleObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB47CCFE2C9BDACD005CBAC9 /* Debug */,
+				AB47CCFF2C9BDACD005CBAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB47CD002C9BDACD005CBAC9 /* Build configuration list for PBXNativeTarget "NFCSampleObjectiveCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB47CD012C9BDACD005CBAC9 /* Debug */,
+				AB47CD022C9BDACD005CBAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB47CD032C9BDACD005CBAC9 /* Build configuration list for PBXNativeTarget "NFCSampleObjectiveCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB47CD042C9BDACD005CBAC9 /* Debug */,
+				AB47CD052C9BDACD005CBAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB47CCC62C9BDACB005CBAC9 /* Project object */;
+}
